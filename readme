@@ -1,0 +1,3 @@
+Querido professor:
+	1. o Health Track foi Hospedado no Heroku, para testar basta acessar o link https://health-track-nathalia.herokuapp.com/login
+	2. O banco esta hospedado em uma instancia da AWS

@@ -1,0 +1,173 @@
+.container-fluid { 
+    padding: 0;
+}
+
+.cabecalho{
+    background: #1C1C1C;
+    height: 70px;
+}
+
+.img-logo {
+    margin-top: 10px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.perfil {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 15px;
+    right: 50px;
+}
+
+.transparente {
+    margin-top: -10rem;
+    background-color: rgb(95,158,160, 70);
+}
+
+.menu {
+    margin-top: -45px;
+}
+
+.selected {
+    background:#FFB937;
+}
+
+.menu a {
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.menu ul li a:hover {
+    background: #FF8C00;
+}
+
+.info-perfil {
+    width: 40%;
+    margin: 3%;
+    float: left;
+}
+
+.info-grafico {
+    width: 40%;
+    margin-top: 3%;
+    margin-left: 3%;
+    float: left;
+}
+
+
+.icon {
+    height: 70px;
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.information {
+    margin-top: 27px;
+    margin-left: 50px;
+}
+
+.texto {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.texto-hist {
+    font-size: 18px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+
+.info-hist {
+    width: 50%;
+    margin: 3%;
+}
+
+.perfil-box {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+.perfil-img {
+    height: 110px;
+    width: 110px;
+    margin-left: 35%;
+}
+
+@media screen and ( min-height: 700px ){
+    .perfil-img {
+        margin-left: 40%;
+    }
+}
+
+.btn-padrao { 
+    background: #FFB937;
+}
+
+.btn-padrao:hover { 
+    background: #FF8C00;
+}
+
+.information-perfil {
+    margin-top: 10px;
+    margin-left: 8%;
+}
+
+.circle {
+    height: 15px;
+    width: 15px;
+    background: #FFB937;
+    float: left;
+}
+
+.data {
+    margin-left: 40px;
+    margin-bottom: 10px; 
+}
+
+.atividade {
+    margin-left: 40px;
+}
+
+.detalhe-atividade {
+    margin-left: 40px;
+}
+
+.bem-vindo {
+    font-size: 20px;
+    color: #ffffff;
+    height: 40px;
+    width: auto;
+    position: absolute;
+    top: 18px;
+    right: 110px;
+}
+
+#peso-info {
+    height: 250px;
+}
+
+.img-dash {
+    background-color: rgb(95,158,160,0.8);
+    width: 109%;
+    height: 10rem;;
+    margin-left: -9%;
+    margin-top: -32%;
+    margin-bottom: 40px;
+}
+
+.titulo {
+    color: #ffffff;
+    margin-top: 8%;
+}
+
+.info-meta {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+}

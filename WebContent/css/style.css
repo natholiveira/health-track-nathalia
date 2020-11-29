@@ -1,0 +1,74 @@
+ html, body { 
+   height: 100%;
+   background: yellow;
+}
+
+.container-fluid { 
+    background: lightblue;
+    height: 100%;
+    padding: 0;
+}
+
+.black {
+    background: #1C1C1C;
+}
+
+.logo {
+    top: 43%; 
+    left: 25%;
+}
+
+.img-logo {
+  width: 100%;
+}
+
+.login {
+    margin-top: 15%;
+    left: 8%;
+}
+
+@media screen and ( min-height: 700px ){
+    .login {
+        margin-top: 25%;
+    }
+}
+
+.login p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+
+.cadastro {
+    padding-top: 3%;
+    left: 8%; 
+}
+
+@media screen and ( min-height: 700px ){
+    .cadastro {
+        margin-top: 15%;
+    }
+}
+
+.cadastro p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.form-cadastro { 
+    margin-top: 5%;
+    font-size: 20px; 
+}
+
+.btn-padrao { 
+    background: #FFB937;
+}
+
+.btn-padrao:hover { 
+    background: #FF8C00;
+}
+
+#esqueci-senha {
+   color: #B22222;
+}
+
